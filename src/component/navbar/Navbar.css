@@ -1,0 +1,33 @@
+.navbar{
+    margin-top: 3vh;
+    display: flex;
+    box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    width: 100%;
+    margin-bottom: 4vh;
+}
+.control{
+    position: absolute;
+    left: 70vw;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.con {
+    display: inline-block;
+    padding-bottom:2px;
+    background-image: linear-gradient(white 0 0);
+    background-position: 0 100%; /*OR bottom left*/
+    background-size: 0% 2px;
+    margin-right: 3vw;
+    list-style: none;
+    background-repeat: no-repeat;
+    transition:
+      background-size 0.3s,
+      background-position 0s 0.3s; 
+    }
+  
+  .con:hover {
+    background-position: 100% 100%; 
+    background-size: 100% 2px;
+  }
